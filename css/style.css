@@ -570,7 +570,7 @@ header nav ul li a:hover {
     width: 94%;
   }
 }
-@media only screen and (min-width: 1560px) {
+@media only screen and (min-width: 1600px) {
   #container {
     width: 82%;
   }
@@ -614,7 +614,7 @@ header nav ul li a:hover {
   border-left: 0.5em solid #2ca6cb;
 }
 #main section.post a h1 {
-  color: #2ca6cb;
+  color: #ea6753;
   line-height: 2;
 }
 #main section.post a p {
@@ -640,7 +640,7 @@ header nav ul li a:hover {
   padding: 0.5em 1em;
 }
 #page-nav a {
-  color: #2ca6cb;
+  color: #ea6753;
 }
 #page-nav a:hover {
   background: #ccc;
@@ -674,7 +674,7 @@ header nav ul li a:hover {
   font-weight: bold;
 }
 #page-nav .space {
-  color: #2ca6cb;
+  color: #ea6753;
 }
 /* page layout */
 @media only screen and (min-width: 1024px) {
@@ -719,11 +719,11 @@ header nav ul li a:hover {
 }
 .archive-title h2 {
   width: 90%;
-  color: #2ca6cb;
+  color: #ea6753;
   font-size: 120%;
 }
 .archive-title a {
-  color: #2ca6cb;
+  color: #ea6753;
   -webkit-transition: color 0.5s;
   -moz-transition: color 0.5s;
   -o-transition: color 0.5s;
@@ -781,10 +781,11 @@ header nav ul li a:hover {
 .post,
 .page {
   background: #fafafa;
+  padding: 0em 1% 0em 1%;
 }
 .post a,
 .page a {
-  color: #2ca6cb;
+  color: #ea6753;
 }
 .post a:hover,
 .page a:hover {
@@ -1208,7 +1209,7 @@ footer.article-footer {
   color: #ccc;
 }
 .qrclose:hover:before {
-  color: #2ca6cb !important;
+  color: #ea6753 !important;
 }
 .overlay {
   display: none !important;
@@ -1268,7 +1269,7 @@ footer.article-footer {
 }
 .article-tags a:hover {
   color: #fff;
-  background: #2ca6cb;
+  background: #ea6753;
 }
 .article-categories {
   color: #d6d6d6;
@@ -1286,7 +1287,7 @@ footer.article-footer {
 }
 .article-category-link:hover {
   color: #fff !important;
-  background: #2ca6cb;
+  background: #ea6753;
 }
 .article-nav {
   padding: 0 10%;
@@ -1305,7 +1306,7 @@ footer.article-footer {
 }
 .article-nav .prev a:hover,
 .article-nav .next a:hover {
-  background: #2ca6cb;
+  background: #ea6753;
   color: #fff;
 }
 .article-nav .prev {
@@ -1468,7 +1469,7 @@ section.comment {
   color: #2ca6cb;
 }
 .closeaside a:hover {
-  color: #2ca6cb;
+  color: #ea6753;
 }
 .closeaside a::before {
   font-family: "FontAwesome";
@@ -1487,24 +1488,24 @@ section.comment {
 #asidepart {
   background: #fafafa;
   margin: 1em 0 0;
-  padding: 0.5em 2% 1em;
+  padding: 1% 1% 1% 1%;
 }
 @media only screen and (min-width: 1024px) {
   #asidepart {
     position: relative;
     float: left;
-    width: 18%;
+    width: 16%;
     margin: 2em 0 0 3%;
   }
 }
 .asidetitle {
   font-size: 1.1em;
-  color: #2ca6cb;
+  color: #ea6753;
   padding: 0 0 0.3125em 0;
   border-bottom: 0.1875em solid #ccc;
 }
 .asidetitle a {
-  color: #2ca6cb;
+  color: #ea6753;
 }
 .asidetitle a:hover {
   color: #2ca6cb;
@@ -1719,7 +1720,7 @@ section.comment {
 }
 footer {
   margin-top: 1em;
-  background: #1f1f1f;
+  background: #2ca6cb;
   padding: 0 2% 0.5em;
 }
 #footer {
@@ -1834,7 +1835,7 @@ footer {
   }
 }
 .social-font a:hover:before {
-  color: #2ca6cb;
+  color: #ea6753;
 }
 .social-font a[title="weibo"]::before,
 .social-font a[title="twitter"]::before,
@@ -1873,7 +1874,7 @@ footer {
   color: #fff;
 }
 .copyright a:hover {
-  color: #2ca6cb;
+  color: #ea6753;
 }
 .article-content pre,
 .article-content .highlight {
@@ -1973,7 +1974,7 @@ footer {
   text-shadow: none;
 }
 .article-content .gist .gist-file .gist-meta a {
-  color: #2ca6cb;
+  color: #ea6753;
   font-weight: normal;
 }
 .article-content .gist .gist-file .gist-meta a:hover {
