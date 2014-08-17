@@ -73,7 +73,7 @@
     </p>
   <p class="article-time">
     <time datetime="2014-08-17T19:59:50.000Z" itemprop="datePublished">Aug 17 2014</time>
-    Updated:<time datetime="2014-08-17T19:59:50.000Z" itemprop="dateModified">Aug 17 2014</time>
+    Updated:<time datetime="2014-08-17T22:03:21.000Z" itemprop="dateModified">Aug 18 2014</time>
     
   </p>
 </header>
@@ -89,6 +89,16 @@
 	</div>
 		<footer class="article-footer clearfix">
 
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/test/">test</a>
+  </div>
+
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/Diary/">Diary</a>
+</div>
 
 
 
@@ -139,12 +149,38 @@
 <aside class="clearfix">
 
   
+<div class="categorieslist">
+	<p class="asidetitle">Categories</p>
+		<ul>
+		
+			<li><a href="/categories/Diary/" title="Diary">Diary<sup>1</sup></a></li>
+		
+		</ul>
+</div>
+
 
   
+<div class="tagslist">
+	<p class="asidetitle">Tags</p>
+		<ul class="clearfix">
+		
+			<li><a href="/tags/test/" title="test">test<sup>1</sup></a></li>
+		
+		</ul>
+</div>
+
 
   <div class="rsspart">
 	<a href="null" target="_blank" title="rss">RSS</a>
 </div>
+
+  <div class="linkslist">
+  <p class="asidetitle">Links</p>
+    <ul>
+      <li><a href="http://enseeiht.fr" target="_blank" title="ENSEEIHT">ENSEEIHT</a></li>
+    </ul>
+</div>
+
 
 </aside>
 </div>
@@ -297,6 +333,27 @@ $(document).ready(function(){
 
 
 
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
 
 
 
